@@ -11,7 +11,7 @@ mongoose.connect(process.env.MONGO)
         console.log('MongoDB connected');
     }).catch((err)=>{
         console.log(err)
-    })
+    }) 
 
 app.listen(3000,()=>{
     console.log('Server on port 3000');
